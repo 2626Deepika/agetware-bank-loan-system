@@ -1,0 +1,10 @@
+### LEND API - Create a Loan
+POST http://localhost:5000/api/v1/loans
+Content-Type: application/json
+
+{
+  "customer_id": "cust001",
+  "loan_amount": 10000,
+  "loan_period_years": 2,
+  "interest_rate_yearly": 10
+}
